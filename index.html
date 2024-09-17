@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A Aventura do Tesouro Escondido</title>
+</head>
+<body>
+    <main>
+        [18:01, 16/09/2024] ???:  <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Em uma tarde chuvosa, você encontra um antigo diário na biblioteca da sua avó. Ele fala sobre um tesouro escondido em uma ilha misteriosa. Decidido a encontrá-lo, você começa sua jornada!</p>
+            <button class="btn-proximo" data-proximo="1">Partir para a Ilha do Tesouro</button>
+            <button class="btn-proximo" data-proximo="2">Ficar e ler mais sobre a ilha</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você chega à Ilha do Tesouro, onde as palmeiras balançam ao vento. A primeira pista está escondida em uma caverna na costa.</p>
+            <button class="btn-proximo" data-proximo="3">Explorar a caverna</button>
+            <button class="btn-proximo" data-proximo="4">Ir à praia relaxar</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Ao ler mais sobre a ilha, você descobre que há lendas de criaturas mágicas que protegem o tesouro. Você decide que precisa de mais informações antes de partir.</p>
+            <button class="btn-proximo" data-proximo="1">Partir para a Ilha do Tesouro</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Dentro da caverna, você encontra uma velha caixa trancada. Ao lado, uma inscrição diz que a chave está embaixo de uma pedra gigante na praia.</p>
+            <button class="btn-proximo" data-proximo="5">Procurar a pedra na praia</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>Na praia, você relaxa e observa as ondas, mas sente que está perdendo tempo. O tesouro pode estar mais perto do que imagina!</p>
+            <button class="btn-proximo" data-proximo="3">Voltar para a caverna</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Você encontra a pedra gigante e, sob ela, a chave! Com a chave em mãos, volta para a caverna e abre a caixa. Dentro, há um mapa que leva a uma floresta densa.</p>
+            <button class="btn-proximo" data-proximo="6">Seguir para a floresta</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>Na floresta, você encontra uma árvore antiga com um buraco no tronco. Uma voz sussurra que o tesouro está escondido em seu interior.</p>
+            <button class="btn-proximo" data-proximo="7">Investigar a árvore</button>
+            <button class="btn-proximo" data-proximo="8">Continuar explorando a floresta</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>Dentro da árvore, você encontra um baú cheio de moedas e joias! Você decidiu usar esse tesouro para ajudar a comunidade local.</p>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>Explorando a floresta, você se perde e acaba encontrando uma tribo amigável que oferece ajuda. Eles conhecem a localização do tesouro.</p>
+            <button class="btn-proximo" data-proximo="7">Juntar-se à tribo e encontrar o tesouro</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
